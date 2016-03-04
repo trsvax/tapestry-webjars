@@ -6,7 +6,7 @@ public class WebJarsModule {
 	
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void contributeClasspathAssetAliasManager( MappedConfiguration configuration) {
-        configuration.add("webjars", "META-INF/resources/webjars");
+        //configuration.add("webjars", "META-INF/resources/webjars");
     }
 
 }
