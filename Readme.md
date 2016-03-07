@@ -1,8 +1,8 @@
 Core Tapestry Webjars Module
 
-Webjars are Javascript modules packages as jar files so they can easily be added as dependencies to Java projects. A large set of them are also usable with require.js making them perfect for inclusion in Tapestry projects when Javascript is needed. All that need to access them is one and only one contribution to the ClasspathAssetAliasManager.
+Webjars are Javascript modules packages as jar files so they can easily be added as dependencies to Java projects. A large set of them are  usable with require.js making them perfect for inclusion in Tapestry projects. All is that needed to access them is one and only one contribution to the ClasspathAssetAliasManager.
 
-To make that happen this module does one thing and one thing only it makes that contribution. This allows multiple modules to use webjars but only add the alias to the Tapestry IOC configuration once. If every module that uses webjars tries to add the alias then difficult to fix startup errors will happen.
+To make that happen this module does one thing and one thing only it makes that contribution. This allows multiple modules to use webjars but only add the alias once to the Tapestry IOC configuration. If every module that uses webjars tries to add the alias then difficult to fix startup errors will happen.
 
 The following steps are needed to create a module that uses webjars:
 
