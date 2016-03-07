@@ -34,3 +34,5 @@ Next is the configuration need to make the Javascript a module
 	
 Many newer modules support configuration/initialization thru data- attributes. If that's the case then nothing else is required.
 
+If support is added in the Tapestry core this depenency can be replaces by the 2.0 verison which does nothing.
+
