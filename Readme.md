@@ -25,7 +25,7 @@ and one for the webjar
 Next is the configuration need to make the Javascript a module
 
     @Contribute(ModuleManager.class)
-public static void setupBaseModules(MappedConfiguration<String, Object> configuration,
+	public static void setupBaseModules(MappedConfiguration<String, Object> configuration,
 	@Path("/META-INF/resourses/webjars/bootstrap-datetimepicker/2.3.5/js/bootstrap-datetimepicker.js")
 	Resource datetimepicker) {
 		configuration.add("webjars/datetimepicker", new JavaScriptModuleConfiguration(datetimepicker));
