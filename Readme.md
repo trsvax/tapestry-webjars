@@ -8,19 +8,19 @@ The following steps are needed to create a module that uses webjars:
 
 Step one is to add the following to the pom file.
 
-<dependency>
+  <dependency>
     <groupId>com.trsvax</groupId>
     <artifactId>tapestry-webjars-core</artifactId>
     <version>1.0.0</version>
-</dependency> 
+  </dependency> 
 
 and one for the webjar
 
-<dependency>
+  <dependency>
     <groupId>org.webjars</groupId>
     <artifactId>bootstrap-datetimepicker</artifactId>
     <version>2.3.5</version>
-</dependency>
+  </dependency>
 
 Next is the configuration need to make the Javascript a module
 
