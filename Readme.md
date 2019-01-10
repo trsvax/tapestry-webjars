@@ -1,3 +1,6 @@
+No Longer maintained moving to node/graphql/react
+---
+
 Core Tapestry Webjars Module
 
 Webjars are Javascript modules packages as jar files so they can easily be added as dependencies to Java projects. A large set of them are  usable with require.js making them perfect for inclusion in Tapestry projects. All is that needed to access them is one and only one contribution to the ClasspathAssetAliasManager.
